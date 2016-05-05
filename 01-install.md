@@ -46,13 +46,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I installed Python 2, since the consensus of online forums and books that I've read seem to suggest it, as it's more compatible with many of the data science packages.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> In the command line, type "python --version"
 
  
 
