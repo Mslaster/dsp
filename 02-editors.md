@@ -59,7 +59,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I'm choosing to use vim since it's the default and, after working through the tutorial, seems fairly straightforward.
 
 --
 
@@ -67,6 +67,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I'm choosing Spyder since I've already started dabbling with it in the past. I like the setup being able to toggle back and forth easily between the text editor, console and variable inspector. Also, it seems to have some user-friendly debugging features. Though I've looked through the manual, I think I'll figure out more specific helpful features as I go along and could appreciate the gaps that they could fill. 
 
  
