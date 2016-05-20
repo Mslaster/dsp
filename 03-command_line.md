@@ -38,7 +38,7 @@ What do the following commands do:
 `ls -lh`  - lists files in detailed format and memory listing is Human readable
 `ls -lah`  - lists all files, including hidden ones, in detailed, human readable format
 `ls -t` - lists files in order of time created 
-`ls -Glp` - 
+`ls -Glp` - lists files, without association to group name, in long format, only if in folder with a "/"
 
 
 
@@ -48,7 +48,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -c display by file's timestamp
+ls -t display in order of time created from newest
+ls -r file in reverse order
+ls -u displays files by access time
+ls -1 displays one entry per line
 
 ---
 
@@ -56,7 +60,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs takes standard output and breaks it down to input for another command, which is not always possible to do through a regular | pipe. 
+
+find . -name "*.java" | xargs grep "Stock"
+
+Would first search through all .java files and than, within those files, search for the word "Stock"
 
  
 
