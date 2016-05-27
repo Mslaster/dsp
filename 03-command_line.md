@@ -62,7 +62,7 @@ What does `xargs` do? Give an example of how to use it.
 
 >> `xargs` takes standard output and breaks it down to input for another command, which is not always possible to do through a regular | pipe.   
 
-`find . -name "*.java" | xargs grep "Stock"`  
+>> `find . -name "*.java" | xargs grep "Stock"`  
 
 Would first search through all .java files and than, within those files, search for the word "Stock"  
 
