@@ -110,6 +110,12 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
+    if s[-3:]=='ing':
+        return s+'ly'
+    elif len(s)>=3:
+        return s+'ing'
+    else:
+        return s
     raise NotImplementedError
 
 
