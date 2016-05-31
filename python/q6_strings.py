@@ -65,6 +65,29 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
+    def fix_start(s):
+    """
+    Given a string s, return a string where all occurences of its
+    first char have been changed to '*', except do not change the
+    first char itself. e.g. 'babble' yields 'ba**le' Assume that the
+    string is length 1 or more.
+    >>> fix_start('babble')
+    'ba**le'
+    >>> fix_start('aardvark')
+    'a*rdv*rk'
+    >>> fix_start('google')
+    'goo*le'
+    >>> fix_start('donut')
+    'donut'
+    """
+    first_char=s[0]
+    new_str=""
+    for char in s[1:len(s)]:
+        if char==first_char:
+            new_str += '*'
+        else:
+            new_str += str(char)
+    return first_char+new_str
     raise NotImplementedError
 
 
