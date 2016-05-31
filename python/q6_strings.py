@@ -42,7 +42,11 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+    if len(s)<2:
+        print ''
+    else:
+        print s[:2]+s[-2:]
+    
 
 
 def fix_start(s):
