@@ -136,6 +136,10 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
+    if s.find('bad')>s.find('not') and s.find('not') > -1:
+        print s[:s.find('not')]+'good'+s[s.find('bad')+3:]
+    else:
+        print s
     raise NotImplementedError
 
 
