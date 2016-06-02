@@ -39,7 +39,12 @@ To first make all of the names lowercase, you would call this lambda on each val
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are commands to perform a specific function on all values in a list. A `map` function takes a list and creates a new one based on its rules. For example, for the following list:  
+`li=[5,3,7,8,6]`
+The function: `[num**2 for num in li]` would square all of the elements of the list.  
+A `filter` would create a new list limited by certain criteria. So, for the following:  
+`[num for num in li if num > 5]` would select only the values greater than 5.  
+Similar commands can be used in constructing new sets and dictionaries.
 
 ---
 
