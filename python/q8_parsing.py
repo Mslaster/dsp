@@ -7,13 +7,15 @@
 # The below skeleton is optional.  You can use it or you can write the script with an approach of your choice.
 
 
-import csv
+```import pandas as pd
+# converts the csv file into a dataframe
+scoresheet=pd.read_csv('football.csv', index_col=0)
 
-  def read_data(data):
-   # COMPLETE THIS FUNCTION
+#creates a new column calculating the differences in goals scored
+scoresheet['Diff']=abs(scoresheet['Goals']-scoresheet['Goals Allowed'])
 
-  def get_min_score_difference(self, parsed_data):
-    # COMPLETE THIS FUNCTION
+#prints the team name of the smallest value
+print scoresheet['Diff'].idxmin()```
 
-  def get_team(self, index_value, parsed_data):
-    # COMPLETE THIS FUNCTION
+
+
