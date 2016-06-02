@@ -7,7 +7,8 @@
 # The below skeleton is optional.  You can use it or you can write the script with an approach of your choice.
 
 
-```import pandas as pd
+```
+import pandas as pd
 # converts the csv file into a dataframe
 scoresheet=pd.read_csv('football.csv', index_col=0)
 
