@@ -1,7 +1,7 @@
 # Based on materials copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 
-
+```
 def donuts(count):
     """
     Given an int count of a number of donuts, return a string of the
@@ -165,3 +165,4 @@ def front_back(a, b):
     b_back= b[len(b)/2+len(b)%2:]
     return a_front+b_front+a_back+b_back
     raise NotImplementedError
+```
