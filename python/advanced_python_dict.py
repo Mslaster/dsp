@@ -11,4 +11,9 @@ for name in faculty.index:
         faculty_dict[name.split()[-1]]=[[faculty[' degree'][name], faculty[' title'][name], faculty[' email'][name]]]
     else:
        faculty_dict[name.split()[-1]].append([faculty[' degree'][name], faculty[' title'][name], faculty[' email'][name]])  
+       
+#Q7
+for name in faculty.index:
+    faculty_dict[tuple(name.split())]=[[faculty[' degree'][name], faculty[' title'][name], faculty[' email'][name]]]
+  
   ```
