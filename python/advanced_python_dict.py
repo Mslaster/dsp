@@ -15,5 +15,9 @@ for name in faculty.index:
 #Q7
 for name in faculty.index:
     faculty_dict[tuple(name.split())]=[[faculty[' degree'][name], faculty[' title'][name], faculty[' email'][name]]]
+#Q8
+for name in faculty.index:
+    faculty_dict[(name.rsplit(" ",1)[-1],name.rsplit(" ",1)[0])]=[faculty[' degree'][name], faculty[' title'][name], faculty[' email'][name]]
+  
   
   ```
