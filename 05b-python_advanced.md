@@ -60,7 +60,7 @@ bryanma@upenn.edu
 ### Part III - Dictionary
 
 ####Q6.  Create a dictionary in the below format:
->>>
+
 ```
 faculty_dict = { 'Ellenberg': [\
               ['Ph.D.', 'Professor', 'sellenbe@upenn.edu'],\
@@ -74,6 +74,7 @@ faculty_dict = { 'Ellenberg': [\
             }
 ```
 Print the first 3 key and value pairs of the dictionary:  
+>>>
 ```
 {'Bellamy': [[' Sc.D.',
    'Associate Professor of Biostatistics',
