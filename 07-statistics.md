@@ -82,7 +82,7 @@ Alternatively, if we take into account the fact that we know his twin was a boy 
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics inputs data and comes up with an optimal response based on a pre-existing model. Bayesian statistics, however, will make more extensive use of the background of the inputted data itself to constantly update the model. 
 
 ---
 
