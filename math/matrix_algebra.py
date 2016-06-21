@@ -1,11 +1,11 @@
 # Matrix Algebra
 
-1.1) dim(A)=6  
-1.2) dim(B)=4
-1.3) dim(C)=6
-1.4) dim(D)=6
-1.5) dim(u)=4
-1.6) dim(w)=4
+1.1) dim(A)=2x3  
+1.2) dim(B)=2x2
+1.3) dim(C)=3x2
+1.4) dim(D)=2x3
+1.5) dim(u)=1x4
+1.6) dim(w)=4x1
 
 2.1) u+v=[9,7,-4,9]
 2.2) u-v=[3,-3,-2,1]
